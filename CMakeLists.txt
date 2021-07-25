@@ -3,7 +3,6 @@ cmake_minimum_required(VERSION 3.0)
 SET(PROJ_NAME "engine")
 PROJECT(${PROJ_NAME})
 
-
 find_package(SFML 2.5 COMPONENTS graphics REQUIRED)
 
 include_directories(include)
