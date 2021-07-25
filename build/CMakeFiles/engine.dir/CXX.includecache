@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/neulii/Schreibtisch/engine/src/main.cpp
+SFML/Window.hpp
+-
+SFML/Graphics.hpp
+-
+iostream
+-
+
